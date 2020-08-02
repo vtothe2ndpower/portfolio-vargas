@@ -1,0 +1,23 @@
+{
+  "name": "vtothe2ndpower",
+  "version": "1.0.0",
+  "description": "Portfolio page that will host my projects and services",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtothe2ndpower/portfolio-vargas.git"
+  },
+  "author": "Victor Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtothe2ndpower/portfolio-vargas/issues"
+  },
+  "homepage": "https://github.com/vtothe2ndpower/portfolio-vargas#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
