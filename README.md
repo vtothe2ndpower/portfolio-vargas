@@ -1,5 +1,6 @@
 # Portfolio Page
 
-- Home 
+- Home Page
+- About Me
 - Projects
 - Services

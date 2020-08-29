@@ -6,6 +6,10 @@ body {
 	background-size: cover;
 }
 
+h2 {
+	text-align: center;
+}
+
 .nav {
     background: #edf0f7;
 }
@@ -13,8 +17,6 @@ body {
 .nav-link {
     color: black;
 }
-
-
 
 .home-content {
 	display: flex;
@@ -29,6 +31,13 @@ body {
 	color: white;
 }
 
+.about-content {
+	margin-top: 25px;
+}
+
+.about-content h2 {
+	color: white;
+}
 
 
 .links {
@@ -40,4 +49,46 @@ body {
 .links i {
 	padding: 0 10px 0 10px;
 	font-size: 1.5em;
+}
+
+.projects-content {
+	margin-top: 25px;
+}
+
+.projects-content h2 {
+	color: white;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+table th, td {
+	padding: 0 15px;
+}
+
+h1, h2, th, td, p, li {
+	color: white;
+}
+
+.services-content {
+	margin-top: 25px;
+}
+
+.services-content h2 {
+	color: white;
+}
+
+ul {
+	list-style-type: square;
+}
+
+i {
+	color: white;
+}
+
+i:hover {
+	color: #edf0f7;
 }
