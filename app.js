@@ -14,6 +14,10 @@ app.get("/about", function(req, res){
     res.render("about");
 });
 
+app.get("/skills", function(req, res){
+    res.render("skills");
+});
+
 app.get("/projects", function(req, res){
     res.render("projects");
 });

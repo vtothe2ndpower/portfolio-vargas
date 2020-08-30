@@ -1,22 +1,36 @@
 body {
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
+	background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
+/*.centered {
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}*/
+
+.job-title {
+	font-size: 42px;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+nav .navbar-nav li a:hover {
+  color: #949594 !important;
+}
+
+
 h2 {
 	text-align: center;
 }
 
-.nav {
-    background: #edf0f7;
-}
-
-.nav-link {
-    color: black;
-}
 
 .home-content {
 	display: flex;
@@ -29,6 +43,9 @@ h2 {
 
 .home-content h1 {
 	color: white;
+	font-size: 56px;
+	font-family: 'Oswald', sans-serif;
+
 }
 
 .about-content {
@@ -48,7 +65,12 @@ h2 {
 }
 .links i {
 	padding: 0 10px 0 10px;
-	font-size: 1.5em;
+	font-size: 1.75em;
+	color: white;
+}
+
+.links i:hover {
+	color: #949594;
 }
 
 .projects-content {
@@ -85,10 +107,11 @@ ul {
 	list-style-type: square;
 }
 
-i {
-	color: white;
+
+.skills-content {
+	margin-top: 25px;
 }
 
-i:hover {
-	color: #edf0f7;
+.skills-content h2 {
+	color: white;
 }
